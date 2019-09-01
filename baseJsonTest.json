@@ -1,0 +1,1339 @@
+{
+    "lang": "en",
+    "initJsSuffix": "en",
+    "or": "or",
+    "selected": "SELECTED",
+    "before": "BEFORE",
+    "after": "AFTER",
+    "this": "THIS",
+    "step": "Step",
+    "warningNotice": {
+        "alert": "ALERT",
+        "phoneText": "Due To Recent TV Appearances Supply Cannot Be Guaranteed. Currently {{productName}} Is IN STOCK.",
+        "warning": "WARNING",
+        "desktopText1": "Due to recent television appearances, we cannot guarantee supply. As of ",
+        "desktopText2": ", we currently have our product IN STOCK and ready to ship within 24 hours of purchase."
+    },
+    "baseLocale": "en",
+    "settings": {
+        "isAmex": true,
+        "isDirectDebit": false,
+        "isPayPal": true,
+        "perBottleBeforePrice": false,
+        "useVwo": true,
+        "usePushNotifications": true,
+        "fbTracking": true,
+        "fbTrackingId": "565180026982709",
+        "fbParamsUpsell": "{value: '50.00', currency:'USD'}",
+        "fbParamsConfirm": "{value: '60.00', currency:'USD'}",
+        "showAllCountries": false,
+        "isGaTrackingId": false,
+        "parentPackageOrder": [ "5hs", "3hs", "1hs", "2hs", "4hs", "10hs", "15hs", "20hs" ],
+        "upsellPackageOrder-wrty": [ "1hs", "2hs" ],
+        "upsellPackageOrder-ism": [ "1hs", "2hs", "3hs", "4hs", "5hs", "10hs", "15hs", "20hs" ],
+        "upsellPackageOrder-cs": [ "1hs", "2hs", "3hs", "4hs", "5hs", "10hs", "15hs", "20hs" ],
+        "upsellPackageOrder-eli": [ "1hs", "2hs", "3hs", "4hs", "5hs", "10hs", "15hs", "20hs" ],
+        "upsellPackageOrder-nox": [ "1hs", "2hs", "3hs", "4hs", "5hs", "10hs", "15hs", "20hs" ],
+        "upsellPackageOrder-lstl": [ "1hs", "2hs", "3hs", "4hs", "5hs", "10hs", "15hs", "20hs" ],
+        "upsellPackageOrder-ls3": [ "3hs" ],
+        "upsellPackageOrder-ls1": [ "1hs" ],
+        "googleTagInternalTrackingId": "GTM-NF9PXQ"
+    },   
+    "topFloatingBar": {
+        "regularButton": {
+            "text1": "ORDER"
+        },
+        "claimFreeBottles": "Claim Bonus Bottles"
+    },
+    "form": {
+        "errors": {
+            "required": "This field is required.",
+            "numbersAllowed": "Only numbers are allowed.",
+            "requiredValidFormat": "Required a valid format.",
+            "validSecurityCodeNumber": "Not a valid security code number.",
+            "validCardNumber": "Not a valid card number.",
+            "invalidCardExpiryDate": "Invalid Card Expiry Date.",
+            "termsAgree": "You need to agree to the terms and conditions."
+        }
+    },
+    "tnc": {
+        "aboutus": "회사소개",
+        "contactus": "고객서비스센터",
+        "terms": "Terms and Conditions",
+        "policy": "Privacy Policy"
+    },
+    "cvv": {
+        "title": "Where can I find my Security Code?",
+        "text1": "The security code is a three digit number, located on the back of any Visa",
+        "text1sup": "Ⓡ",
+        "text2": " or MasterCard",
+        "text2sup": "Ⓡ",
+        "text3": " on the right side of the signature strip as illustrated.",
+        "strong": "Last 3 Digits of account number panel:",
+        "caption1": "Visa",
+        "caption1sup": "Ⓡ",
+        "caption2": " and MasterCard",
+        "caption2sup": "Ⓡ"
+    },
+    "promises": {
+        "title": "OUR PROMISES AND ASSURANCES TO YOU!",
+        "promises": [
+            {
+                "title": "Highest Security Levels for Online",
+                "strong": "Transactions 256 bit Encryption."
+            },
+            {
+                "title": "Your Privacy Protected Rest Assured."
+            },
+            {
+                "title": "100% Consumer Satisfaction Guaranteed."
+            },
+            {
+                "title": "Free Shipping and Handling on",
+                "strong": "Multi Orders GUARANTEED."
+            },
+            {
+                "title": "Award Winning Customer Service."
+            }
+        ]
+    },
+    "modals": {
+        "iban": {
+            "title": "IBAN:",
+            "p1": "IBAN is your International Bank Account Number and is now mandatory by EU directive for all transactions post February 1, 2014. If you do not know your IBAN kindly check your bank statement or contact bank."
+        },
+        "swiftBic": {
+            "title": "SWIFT-BIC:",
+            "p1": "BIC or Swift is unique code used to identify your financial institution and is mandatory by EU Directive for transactions post February 1, 2014.",
+            "p2": "If you do not know your BIC or SWIFT code kindly check your bank statement or contact bank."
+        }
+    },
+    "months": [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+    ],
+    "funnelBox": {
+        "shipping" : {
+            "header" : "Yes, I Want Fast Shipping",
+            "body" : {
+                "s1" : "Rush Shipping: You currently have free shipping and you can upgrade to ",
+                "s2" : "EXPEDITED",
+                "s3" : " speed shipping with for only an additional ",
+                "s4": "."
+            }
+        },
+        "membership" : {
+            "header" : "YES! I want the HUGE DISCOUNT for members!",
+            "body" : {
+                "s1" : "Time is Running Out: ",
+                "s2" : "Order now, and get a GIANT 75% OFF DISCOUNT on every single one of the exciting LIGHTSTRIKE products. $99 VALUE FREE TODAY ONLY! You'll save big money on all our laser products PLUS anything we ever release! It's a no-brainer! Get all the membership benefits!",
+                "s3" : "100% Free Today Only"
+            }
+        },
+        "lifetimeWarranty" : {
+            "header" : "Yes, I Want Lifetime Protection",
+            "body" : {
+                "s1" : "One Time Offer:",
+                "s2" : " By placing your order today you can have a lifetime protection and replacement warranty for only an additional ",
+                "s3" : ". This extended warranty means your product is covered for LIFE."
+            },
+            "productName" : "Lifetime Warranty",
+            "displayName": "Lifetime Warranty"
+        }
+    },
+    "quickCancel": {
+        "mainTitle": "Quick Cancel",
+        "mainMsg": "Please enter the following information to cancel your subscription immediately. No more obligations. No more shipments. No more charges.",
+        "toggleButton": {
+            "show": "Quick Cancel",
+            "showSubtitle": "not happy for any reason?",
+            "hide": "Close"
+        },
+        "submitButton": "Submit",
+        "messages": [
+            {
+                "title": "Unknown Error",
+                "msg": "An unknown error occured."
+            },
+            {
+                "title": "Account not found",
+                "msg": "Sorry, we were unable to locate your account."
+            },
+            {
+                "title": "Account on Hold",
+                "msg": "Your order has been put on hold."
+            },
+            {
+                "title": "Account Canceled",
+                "msg": "Your order has been canceled."
+            },
+            {
+                "title": "Ticket Created",
+                "msg": "A ticket has been created on your account. One of our customer service representatives will be contacting you shortly."
+            }
+        ]
+    },
+    "addressPage": {
+        "title": {
+            "text1": "IMPORTANT CUSTOMER",
+            "text2": "SERVICE MATTER"
+        },
+        "p1": "Dear",
+        "p2": "Congratulations! We Are Preparing Your Shipment",
+        "p3": "We are ready to ship, however we have noticed that",
+        "ul": [
+            "Your delivery address appears to be incomplete or incorrect",
+            "Your email address appears to be incorrect or invalid"
+        ],
+        "p4": "For prompt delivery and exceptional customer service please review and confirm your shipping details below.",
+        "i": "Thank you for your attention to this matter.",
+        "review": "Review and Verify Shipping Details",
+        "yesAction": "Edit Details",
+        "noAction": "My Details Are Correct",
+        "saveAction": "SAVE CHANGES"
+    },
+    "modalForm": {
+        "heading": {
+            "text1": "Enter Your Name and Email Below To INSTANTLY",
+            "text2": "Receive 75% Off The LS360 Flashlight..."
+        },
+        "formTitle": "Get instant access now!",
+        "button": "YES! Instantly Apply My 75% Discount"
+    },
+    "landing": {
+        "wistiaUrl": "wistia_async_1wtgl0ekte",
+        "header": {
+            "ctaButton": {
+                "text1": "75% 할인받고 구매하기!",
+                "text2": ""
+            },
+            "todayOnly": "오늘i 종료: "
+        },
+        "text1": "FREE shipping will expire in",
+        "text2": "Sorry FREE Shipping Has Now Expired",
+        "vsl": {
+            "heading": "초강력 LED 손전등 할인 이벤트에 참가하기",
+            "timer": {
+                "title": [
+                    "LIMITED TIME OFFER:",
+                    "",
+                    "SHIPPING!"
+                ],
+                "day": "일",
+                "hours": "시간",
+                "minutes": "분",
+                "seconds": "초"
+            }
+        },
+        "orderForm": {
+            "labels": {
+                "firstName": "First Name",
+                "lastName": "Last Name",
+                "street": "Street",
+                "city": "City",
+                "country": "Country",
+                "province": "Province",
+                "zip": "Zip/Postcode",
+                "phone": "Phone",
+                "email": "E-mail",
+                "skype": "Skype"
+            },
+            "submitButton": {
+                "text1": "ORDER TODAY",
+                "text2": ""
+            },
+            "fb": {
+                "loggedIn": "You're logged in",
+                "logout": "Logout?"
+            },
+            "encryption": "Secure 256-bit SSL Encryption"
+        }
+    },
+    "order": {
+        "productName": "LS360 Flashlights",
+        "confirmationNames": {
+            "id" : "LS360 Flashlights",
+            "miniUpsellId": "Special Deal",
+            "quickUpsellId": "Special Deal",
+            "funnelWrtyId" : "Lifetime Warranty",
+            "funnelWrty2Id" : "Lifetime Warranty"
+        },
+        "spec": [
+            "Material: Aluminum",
+            "Power: 3 AAA",
+            "Lumens:700",
+            "Zoomable: 1x - 2000x",
+            "5 Modes: High Medium Low Strobe S.O.S",
+            "Normally:"
+        ],
+        "warningHighDemand": "DUE TO EXTREME DEMAND PLEASE ALLOW UP TO 30 DAYS FOR DELIVERY.",
+        "heading": [
+            "You Get The Tactical LS360 Flashlight Today - Normally",
+            "356.00",
+            "Retail - For ONLY",
+            "56",
+            "(75% Discount!)",
+            "PLUS.. We're throwing in ",
+            "",
+            " when you order yours today!"
+        ],
+        "headingNonDiscount": {
+            "text1": "Shipping is now"
+        },
+        "headingShippingMessage": {
+            "shippingFree": {
+                "text1": "PLUS.. We're throwing in ",
+                "freeShipping": "FREE SHIPPING",
+                "text2": " when you order yours today!"
+            },
+            "shippingDiscounted": {
+                "text1": "PLUS.. We're throwing in ",
+                "text2": " when you order yours today!"
+            },
+            "shippingRegular": {
+                "text1": "Shipping is now ",
+                "text2": "."
+            }
+        },
+        "steps": [
+            "Step #1: Select Quantity",
+            "Step #2: Contact Information",
+            "Step #3: Shipping Address"
+        ],
+        "leftTitle1": {
+            "text1": "Your 75% Discount Has Been Applied",
+            "text2": [
+                "Your Order Qualifies For",
+                " Shipping",
+                " when ordered TODAY."
+            ]
+        },
+        "radioBoxShippingMessage": {
+            "shippingFree": {
+                "text1": "Your Order Qualifies For ",
+                "freeShipping": "FREE SHIPPING",
+                "text2": " when ordered TODAY."
+            },
+            "shippingDiscounted": {
+                "text1": "Your order qualifies for ",
+                "text2": " shipping when ordered today."
+            },
+            "shippingRegular": {
+                "text1": "Your order qualifies for ",
+                "text2": " shipping."
+            }
+        },
+        "button": [
+            "CONFIRM NOW"
+        ],
+        "selectQuantity": {
+            "title1": "Item",
+            "title2": "Price",
+            "perUnit": "/Unit"
+        },
+        "productSlider": {
+            "perBottle": " total",
+            "todaySave": "TODAY ONLY SAVE",
+            "freeShipping": "AS ALWAYS FREE SHIPPING",
+            "retailValue": "Retail Value:",
+            "specialOffer": "Special Offer:",
+            "willShip": "Your Order will Ship within 5 business days",
+            "packaging": "",
+            "total": "total",
+            "sellout": "Current Sell Out Risk:",
+            "high": "HIGH",
+            "inventoryLevel": "Inventory Level:",
+            "low": "LOW",
+            "orderNowWhile": "ORDER NOW WHILE IN STOCK",
+            "notSelected": "Please select a product.",
+            "limit": "ORDER TODAY",
+            "quantity": "QUANTITY",
+            "bestSeller": "BEST SELLER!",
+            "quantityLabel": [
+                "Choose how many"
+            ],
+            "slides": {
+                "20hs": {
+                    "quantity": "20",
+                    "title": "LS360 Flashlights",
+                    "discount": "92% OFF"
+                },
+                "15hs": {
+                    "quantity": "15",
+                    "title": "LS360 Flashlights",
+                    "discount": "92% OFF"
+                },
+                "10hs": {
+                    "quantity": "10",
+                    "title": "LS360 Flashlights",
+                    "discount": "90% OFF"
+                },
+                "5hs": {
+                    "quantity": "5",
+                    "title": "Buy 3 LS360 Flashlights, GET 2 FREE!",
+                    "titleForMobile": "Buy 3 GET 2",
+                    "bestseller": "true",
+                    "discount": "",
+                    "reversePriceOrder": true,
+                    "hideQtt": true
+                },
+                "4hs": {
+                    "quantity": "4",
+                    "title": "LS360 Flashlights",
+                    "discount": "82% OFF"
+                },
+                "3hs": {
+                    "quantity": "3",
+                    "title": "Buy 2 LS360 Flashlights, GET 1 FREE!",
+                    "titleForMobile": "Buy 2 GET 1",
+                    "discount": "",
+                    "reversePriceOrder": true,
+                    "hideQtt": true
+                },
+                "2hs": {
+                    "quantity": "2",
+                    "title": "LS360 Flashlights",
+                    "discount": "79% OFF"
+                },
+                "1hs": {
+                    "quantity": "1",
+                    "title": "LS360 Flashlight",
+                    "discount": "75% OFF"
+                }
+            }
+        },
+        "rightTitle1": {
+            "text1": "Lightstrike360",
+            "text2": [
+                "This Item qualifies for",
+                " ",
+                "shipping"
+            ]
+        },
+        "formShippingMessage": {
+            "shippingFree": {
+                "text1": "This Item qualifies for ",
+                "freeShipping": "FREE shipping",
+                "text2": "."
+            },
+            "shippingDiscounted": {
+                "text1": "This Item qualifies for ",
+                "text2": " shipping."
+            },
+            "shippingRegular": {
+                "text1": "This Item qualifies for ",
+                "text2": " shipping."
+            }
+        },
+        "payShipping": "Just pay shipping",
+        "discountApplied": "50% DISCOUNT APPLIED",
+        "shipping": "/SHIPPING EACH",
+        "offerExpiresToday": "OFFER EXPIRES TODAY",
+        "shippingPercentageCharge": "Shipping is charged at ten percent of product cost.",
+        "specialOffer": {
+            "text1": "Special Price",
+            "text2": "Today Only"
+        },
+        "orderForm": {
+            "labels": {
+                "directDebit": "Direct Debit",
+                "paymentMethod": "Payment Method",
+                "cardNumber": "Card Number",
+                "cardExpiryDate": "Card Expiry Date",
+                "month": "Month",
+                "year": "Year",
+                "securityCode": "Security Code",
+                "whereSecurityCode": "Where can I find my Security Code?",
+                "iban": "IBAN",
+                "swiftBic": "SWIFT-BIC",
+                "whatIsIban": "What is IBAN?",
+                "whatIsSwiftBic": "What is SWIFT-BIC?",
+                "sofort": "SOFORT",
+                "paypal": "PayPal",
+                "termsAgree": "I agree to the terms and conditions herein."
+            },
+            "submitButton": {
+                "text": "YES, SEND MY LIGHTSTRIKE360 NOW!"
+            },
+            "disclaimerUsd": "All pricing is in United States of America Dollars.",
+            "sepaText": {
+                "attention": "Attention:",
+                "text1": "From February 1, 2014 Euro directives require that direct debit payments are provided through",
+                "strong1": "SEPA Direct Debit",
+                "text2": ". Please provide IBAN and SWIFT-BIC below."
+            },
+            "sofort": {
+                "text1": "Sie werden am Ende Ihres Bestellvorgangs für die Zahlungsabwicklung direkt zu Sofortüberweisung weitergeleitet. Erst danach ist Ihre Bestellung erfolgreich abgeschlossen."
+            },
+            "visaGift": {
+                "text1": "USE",
+                "text2": "GET FREE GIFT"
+            },
+            "paypal": {
+                "text1" : "Always free shipping when paying with PayPal."
+            }
+        },
+        "miniUpsell": {
+            "line1": "Wow!",
+            "line2": "You’ve Got A Special Deal!!",
+            "line3": "Today Only!",
+            "line4": "Get One more LS360 for Only",
+            "line5": "Valued at",
+            "line6": "LIMITED TIME OFFER",
+            "buttonYes": "YES, I’LL TAKE IT",
+            "buttonNo": "I Don’t Want the Deal"
+        }
+    },
+    "confirm": {
+        "thankYou": "THANK YOU FOR YOUR ORDER",
+        "thankYouSub": "Good Luck! You're on your way!",
+        "cardStatement": {
+            "delivery": [
+                "Delivery in",
+                "(60 Days)"
+            ],
+            "p1": "Charges on your statement will be processed now for ",
+            "p2": "and will appear as",
+            "bottle": {
+                "singular": "Bottle",
+                "plural": "Bottles"
+            },
+            "vial": {
+                "singular": "Vial",
+                "plural": "Vials"
+            },
+            "item": {
+                "singular": "Item",
+                "plural": "Items"
+            },
+            "unit": {
+                "singular": "Unit",
+                "plural": "Units"
+            },
+            "pack": {
+                "singular": "Pack",
+                "plural": "Packs"
+            }
+        },
+        "cardStatementTrial":{
+            "title": "YOUR ORDER TODAY",
+            "p1": "Your purchase today",
+            "priceTitle1": "14 Days Free",
+            "priceTitle2": "Shipping",
+            "priceTitle3": "Total"
+        },
+        "orderTrial": "With a trial you can examine and use the product and you will only be charged if you do not return the unused product within 14 days.  Please read the full terms and conditions in relation to your trial.",
+        "upsellDBMsg": "In addition national and international aviation shipping rules prohibit your flashlight to be shipped with batteries therefore procure your batteries locally as they cannot be included.",
+        "csNotice": {
+            "h3": "WE ARE HERE TO HELP YOU",
+            "p1": "Please feel free to contact us at ",
+            "p2": "or ",
+            "p3": "support@",
+            "p4": "should you have any comments or concerns about your order."
+        },
+        "infoNotice": {
+            "text1": "Important Shipping Information: ",
+            "text2": "Orders of 5 units or more may be sent in multiple shipments."
+        }
+    },
+    "decline": {
+        "unable": "We were unable to process your credit card as it has been declined.",
+        "tryAgain": "You may try again with another credit card.",
+        "goBack": "Go Back"
+    },
+    "upsell": {
+        "general": {
+            "noThanks": "I Don't Want the Deal"
+        },
+        "upsell-ism": { 
+            "productName": "iSwim+Extreme",
+            "confirmationNames": {
+                "id" : "iSwim+Extreme",
+                "miniUpsellId": "Special Deal",
+                "quickUpsellId": "Special Deal",
+                "funnelWrtyId" : "Lifetime Warranty",
+                "funnelWrty2Id" : "Lifetime Warranty"
+            },
+            "quickUpsell": {
+                "line1": "Wow!",
+                "line2": "You’ve Got A Special Deal!!",
+                "line3": "Today Only!",
+                "line4": "Get One more ISWIM+EXTREME for Only",
+                "line5": "Valued at",
+                "line6": "LIMITED TIME OFFER",
+                "buttonYes": "YES, I’LL TAKE IT",
+                "buttonNo": "I Don’t Want the Deal"
+            },
+            "waitBox": {
+                "row1": "WAIT, BEFORE YOU GO",
+                "row2": "Extend Your 75% Savings Today Only!",
+                "row3": [
+                    "ISWIM+EXTREME LIMITED TIME OFFER",
+                    "Save Huge Money Now by Adding to",
+                    "Your Online Lightstrike360 Order"
+                ]
+            },
+            "rightTitle": {
+                "text1": "Discount Applied",
+                "text2": [
+                    "Your Order Qualifies For",
+                    " Shipping",
+                    " when ordered TODAY."
+                ]
+            },
+            "button": [
+                "YES, ADD TO MY ORDER"
+            ],
+            "productSlider": {
+                "perBottle": " total",
+                "todaySave": "TODAY ONLY SAVE",
+                "freeShipping": "FREE SHIPPING",
+                "retailValue": "Retail Value:",
+                "specialOffer": "Special Offer:",
+                "willShip": "Your Order will Ship within 24 hours in discreet packaging",
+                "packaging": "",
+                "total": "TOTAL:",
+                "sellout": "Current Sell Out Risk:",
+                "high": "HIGH",
+                "inventoryLevel": "Inventory Level:",
+                "low": "LOW",
+                "orderNowWhile": "ORDER NOW WHILE IN STOCK",
+                "selectButton": "YES, I'LL TAKE IT",
+                "notSelected": "Please select a product.",
+                "limit": "ORDER TODAY",
+                "quantity": "QUANTITY",
+                "quantityLabel": [
+                    "Choose How Many"
+                ],
+                "slides": {
+                    "20hs": {
+                        "title": "20"
+                    },
+                    "15hs": {
+                        "title": "15"
+                    },
+                    "10hs": {
+                        "title": "10"
+                    },
+                    "5hs": {
+                        "title": "5"
+                    },
+                    "4hs": {
+                        "title": "4"
+                    },
+                    "3hs": {
+                        "title": "3",
+                        "bestseller": "true"
+                    },
+                    "2hs": {
+                        "title": "2"
+                    },
+                    "1hs": {
+                        "title": "1"
+                    }
+                }
+            },
+            "contentRow": {
+                "heading": "ISWIM+EXTREME",
+                "paragraphs": [
+                    "The iSwim+ Extreme protects your phone from seawater, sand, and anything harmful! It’s a super high-tech product that actually lets you TALK while your phone is in a NASA-grade waterproof pouch.",
+                    "Plus, you can protect and hide ANYTHING along with your phone! CASH, SMOKES, ID!",
+                    "Take it everywhere, anywhere, but especially – take it in water so that the iSwim+ Extreme can showcase its full potential."
+                ],
+                "list": [
+                    "Your cell phone is 100% functional while completely protected.",
+                    "Powerful 2-way external speaker keeps you in contact or in music."
+                ]
+            }
+        },
+        "upsell-cs": {
+            "productName": "Card Shield",
+            "confirmationNames": {
+                "id" : "Card Shield",
+                "quickUpsellId": "Special Deal",
+                "funnelWrtyId" : "Lifetime Warranty"
+            },
+            "quickUpsell": {
+                "line1": "Wow!",
+                "line2": "You’ve Got A Special Deal!!",
+                "line3": "Today Only!",
+                "line4": "Get One more CARD SHIELD for Only",
+                "line5": "Valued at",
+                "line6": "LIMITED TIME OFFER",
+                "buttonYes": "YES, I’LL TAKE IT",
+                "buttonNo": "I Don’t Want the Deal"
+            },
+            "waitBox": {
+                "row1": "WAIT, BEFORE YOU GO",
+                "row2": "Extend Your 75% Savings Today Only!",
+                "row3": [
+                    "STOP IDENTITY THEFT",
+                    "Card Shield Eliminates Identity Theft By RFID"
+                ]
+            },
+            "rightTitle": {
+                "text1": "Discount Applied",
+                "text2": [
+                    "Your Order Qualifies For",
+                    " Shipping",
+                    " when ordered TODAY."
+                ]
+            },
+            "button": [
+                "YES, ADD TO MY ORDER"
+            ],
+            "productSlider": {
+                "perBottle": " total",
+                "todaySave": "TODAY ONLY SAVE",
+                "freeShipping": "FREE SHIPPING",
+                "retailValue": "Retail Value:",
+                "specialOffer": "Special Offer:",
+                "willShip": "Your Order will Ship within 24 hours in discreet packaging",
+                "packaging": "",
+                "total": "TOTAL:",
+                "sellout": "Current Sell Out Risk:",
+                "high": "HIGH",
+                "inventoryLevel": "Inventory Level:",
+                "low": "LOW",
+                "orderNowWhile": "ORDER NOW WHILE IN STOCK",
+                "selectButton": "YES, I'LL TAKE IT",
+                "notSelected": "Please select a product.",
+                "limit": "ORDER TODAY",
+                "quantity": "QUANTITY",
+                "quantityLabel": [
+                    "Choose How Many"
+                ],
+                "slides": {
+                    "20hs": {
+                        "title": "20"
+                    },
+                    "15hs": {
+                        "title": "15"
+                    },
+                    "10hs": {
+                        "title": "10"
+                    },
+                    "5hs": {
+                        "title": "5"
+                    },
+                    "4hs": {
+                        "title": "4"
+                    },
+                    "3hs": {
+                        "title": "3",
+                        "bestseller": "true"
+                    },
+                    "2hs": {
+                        "title": "2"
+                    },
+                    "1hs": {
+                        "title": "1"
+                    }
+                }
+            },
+            "contentRow": {
+                "heading": "CARD SHIELD",
+                "paragraphs": [
+                    "This Swiss engineered and designed 6-pocket accordion style card holder stops identity theft by blocking radio wave emissions from RFID scanners attempting to steal your personal information.",
+                    "Sleek and compact, Card Shield is made from a durable light weight high-tech alloy and is also 100% water resistant to keep everything safe and secure.",
+                    "Card Shield is approved by professional bankers to help protect your identity.",
+                    "Get your Card Shield today to protect yourself and you’ll never have to worry ever again!"
+                ],
+                "list": [
+                    "Your cell phone is 100% functional while completely protected.",
+                    "Powerful 2-way external speaker keeps you in contact or in music."
+                ]
+            }
+        },
+        "upsell-db": {
+            "productName": "DISCOUNT BATTERIES",
+            "confirmationNames": {
+                "id" : "DISCOUNT BATTERIES",
+                "quickUpsellId": "Special Deal",
+                "funnelWrtyId" : "Lifetime Warranty"
+            },
+            "quickUpsell": {
+                "line1": "Wow!",
+                "line2": "You’ve Got A Special Deal!!",
+                "line3": "Today Only!",
+                "line4": "Get One more DISCOUNT BATTERIES for Only",
+                "line5": "Valued at",
+                "line6": "LIMITED TIME OFFER",
+                "buttonYes": "YES, I’LL TAKE IT",
+                "buttonNo": "I Don’t Want the Deal"
+            },
+            "waitBoxSimple": {
+                "row1": ["WAIT!","NEVER RUN OUT OF BATTERIES AGAIN!"],
+                "row2": "Top quality, high powered batteries EVERY MONTH for the rest of your life!",
+                "row3": "GET A SUBSCRIPTION FOR ASTONISHING MONTHLY DISCOUNTS!"
+            },
+            "contentRow": {
+                "beforeButton": {
+                    "text1": "$1000’S OF DOLLARS IN IMMEDIATE DISCOUNTS OR",
+                    "text2": "EVEN FREE BATTERIES WITH SOME PROMOTIONS!",
+                    "text3": ["SUBSCRIBE TODAY FOR ONLY"," PER MONTH"]
+                },
+                "afterButton": {
+                    "text1": "You have dozens of devices that eat up batteries. There’s nothing more frustrating",
+                    "text2": "than having dead batteries and no replacements easily at hand!",
+                    "text3": "FOR THE NEXT 24 HOURS ONLY, our CEO has authorized an unprecedented deal.",
+                    "text4": "This special is only for NEW LIGHTSTRIKE360 tactical flashlight owners.",
+                    "text5": "Gain access to a LIFETIME of discounts on the FINEST BATTERIES",
+                    "text6": "AROUND THE GLOBE INCLUDING DURACELL, EVEREADY.",
+                    "yellowBox": "Each month, you will receive a coupon entitling you to buy super long-lasting, high powered, long shelf life batteries for your LIGHTSTRIKE360 flashlight. PLUS, YOU CAN APPLY THE DISCOUNTS TO BATTERIES FOR YOUR OTHER DEVICES. Cell phones, games, radios, anything that uses batteries."
+                }
+            },
+            "button": [
+                "YES, ADD TO MY ORDER"
+            ],
+            "noThanks": [
+                "No Thank You,",
+                "I Prefer Full Cost Batteries"
+            ],
+            "tnc": [
+                "This is a monthly subscription service that, for the low price of",
+                ", provides you with monthly access to a compendium of discounts and savings on all types of batteries. Included in this offer are lithium ion, nickel cadmium and nickel metal hydride batteries that you can choose including, when available, free battery promotions. If you do not achieve the savings or for any reason you can cancel by simply emailing",
+                "or calling"
+            ]
+        },
+        "upsell-dbv2": {
+            "productName": "DISCOUNT BATTERIES",
+            "confirmationNames": {
+                "id" : "DISCOUNT BATTERIES",
+                "quickUpsellId": "Special Deal",
+                "funnelWrtyId" : "Lifetime Warranty"
+            },
+            "quickUpsell": {
+                "line1": "Wow!",
+                "line2": "You’ve Got A Special Deal!!",
+                "line3": "Today Only!",
+                "line4": "Get One more DISCOUNT BATTERIES for Only",
+                "line5": "Valued at",
+                "line6": "LIMITED TIME OFFER",
+                "buttonYes": "YES, I’LL TAKE IT",
+                "buttonNo": "I Don’t Want the Deal"
+            },
+            "waitBoxSimple": {
+                "row1": ["WAIT!","NEVER RUN OUT OF BATTERIES AGAIN!"],
+                "row2": "Top quality, high powered batteries EVERY MONTH for the rest of your life!",
+                "row3": "GET A SUBSCRIPTION FOR ASTONISHING MONTHLY DISCOUNTS!"
+            },
+            "contentRow": {
+                "beforeButton": {
+                    "text1": "$1000’S OF DOLLARS IN IMMEDIATE DISCOUNTS OR",
+                    "text2": "EVEN FREE BATTERIES WITH SOME PROMOTIONS!",
+                    "text3": ["TODAY ONLY ONE", "FULL", "YEAR FOR THE ONETIME CHARGE OF"]
+                },
+                "afterButton": {
+                    "text1": "You have dozens of devices that eat up batteries. There’s nothing more frustrating",
+                    "text2": "than having dead batteries and no replacements easily at hand!",
+                    "text3": "FOR THE NEXT 24 HOURS ONLY, our CEO has authorized an unprecedented deal.",
+                    "text4": "This special is only for NEW LIGHTSTRIKE360 tactical flashlight owners.",
+                    "text5": "Gain access to a LIFETIME of discounts on the FINEST BATTERIES",
+                    "text6": "AROUND THE GLOBE INCLUDING DURACELL, EVEREADY.",
+                    "yellowBox": "Each month, you will receive a coupon entitling you to buy super long-lasting, high powered, long shelf life batteries for your LIGHTSTRIKE360 flashlight. PLUS, YOU CAN APPLY THE DISCOUNTS TO BATTERIES FOR YOUR OTHER DEVICES. Cell phones, games, radios, anything that uses batteries."
+                }
+            },
+            "button": [
+                "YES, ADD TO MY ORDER"
+            ],
+            "noThanks": [
+                "No Thank You,",
+                "I Prefer Full Cost Batteries"
+            ],
+            "tnc": [
+                "This is a monthly subscription service that, for the low price of",
+                ", provides you with monthly access to a compendium of discounts and savings on all types of batteries. Included in this offer are lithium ion, nickel cadmium and nickel metal hydride batteries that you can choose including, when available, free battery promotions. If you do not achieve the savings or for any reason you can cancel by simply emailing",
+                "or calling"
+            ]
+        },
+        "upsell-eb": {
+            "productName": "",
+            "confirmationNames": {
+                "id" : "",
+                "quickUpsellId": "Special Deal",
+                "funnelWrtyId" : "Lifetime Warranty"
+            },
+            "waitBoxSimple": {
+                "row1": ["WAIT!","WOULD YOU BE ABLE TO SURVIVE THROUGH A NATURAL OR MANMADE DISASTER??"],
+                "row2": "",
+                "row3": ""
+            },
+            "contentRow": {
+                "beforeButton": {
+                    "text1": "Now You’ve Got The Best Tactical Flashlight Money Can Buy.",
+                    "text2": "Learn How To Use It To Survive A Disaster!",
+                    "text3": "GET THE LATEST SURVIVAL AND PREPARATION EBOOK NOW. IN ONE WEEK YOU’LL",
+                    "text4": "LEARN HOW TO PROTECT YOUR FAMILY AND FRIENDS!",
+                    "valueAt": "Valued at",
+                    "todayOnly": "Today Only"
+                },
+                "afterButton": {
+                    "text1": "Because you bought the LIGHTSTRIKE360, we know you’re an intelligent person who wants to protect your family. You want to be prepared for the worst. Disaster can strike any time, any place. But you can protect yourself with a few easy steps. Included are “secret” tips taught by the military and survivalists, now all condensed for you in an easy to read book that will turn you into an expert!",
+                    "text2": "Because you purchased the LIGHTSTRIKE360, you are eligible to download this valuable, feature packed book that will teach you all the secrets of survival. Owning this ebook might literally be the difference between life and death!",
+                    "text3": "Learn how to use your new LIGHTSTRIKE360 for protection and comfort!",
+                    "text4": "Easy to read, not filled with difficult technical jargon. Just spend a few minutes a day reading the information filled chapters and pretty soon you’ll know as much as the top military trainers in survival and self-defense.",
+                    "text5": "It’s the best “upgrade” you can have! You’ve got a great flashlight, now get",
+                    "text6": "solid knowledge. Learn all the secret tricks about “How to Stay Alive”.",
+                    "text7": "Act now, and get the book in seconds!!",
+                    "yellowBoxTitle": "LEARN HOW:",
+                    "yellowBox": [
+                        "To blind and panic the “bad guys” with pulsating, disorienting flashes! The LIGHTSTRIKE360 does it with ease!",
+                        "When the power grid goes down, the LIGHTSTRIKE360 stays on for HOURS & HOURS! Never be “In the dark”.",
+                        "Your life may depend on getting out of a wrecked building. Your LIGHTSTRIKE360 is wickedly bright. Get through tunnels, sewers, dark passages!",
+                        "You’ll have a “beacon” of ultra-bright light that can bring help and reunite you with friends and family.",
+                        "Ways to get away from the urban crazies who might storm your town in search of food!"
+                    ]
+                }
+            },
+            "button": [
+                "YES! I WANT TO LEARN",
+                "HOW TO STAY",
+                "ALIVE WHILE THE WORLD",
+                "GOES CRAZY!",
+                "SEND ME MY BOOK! I WANT TO",
+                "SURVIVE WHILE OTHERS PANIC!"
+            ],
+            "noThanks": [
+                "No Thank You,",
+                "I Don't Want to Survive"
+            ],
+            "tnc": [
+                "This is a monthly subscription service that, for the low price of",
+                ", provides you with monthly access to a compendium of discounts and savings on all types of batteries. Included in this offer are lithium ion, nickel cadmium and nickel metal hydride batteries that you can choose including, when available, free battery promotions. If you do not achieve the savings or for any reason you can cancel by simply emailing",
+                "or calling"
+            ]
+        },
+        "upsell-eli" : {
+            "productName": "Bottle",
+            "confirmationNames": {
+                "id" : "Bottle",
+                "quickUpsellId": "Special Deal",
+                "funnelWrtyId" : "Lifetime Warranty"
+            },
+            "productNamePlural": "Bottles",
+            "quickUpsell": {
+                "line1": "Wow!",
+                "line2": "You’ve Got A Special Deal!!",
+                "line3": "Today Only!",
+                "line4": "Get One more ELITEGAIN 350 for Only",
+                "line5": "Valued at",
+                "line6": "LIMITED TIME OFFER",
+                "buttonYes": "YES, I’LL TAKE IT",
+                "buttonNo": "I Don’t Want the Deal"
+            },
+            "waitBox": {
+                "row1a": "WAIT,",
+                "row1b": "BEFORE YOU GO",
+                "row2": "Extend Your 75% Savings Today Only!",
+                "row3": [
+                    "ELITEGAIN 350 LIMITED TIME OFFER",
+                    "Save Huge Money Now by Adding to Your Online Lightstrike360 Order"
+                ]
+            },
+            "rightTitle": {
+                "text1": "Discount Applied",
+                "text2": [
+                    "Your Order Today Qualifies",
+                    "for",
+                    "shipping"
+                ]
+            },
+            "button": [
+                "YES, ADD TO MY ORDER"
+            ],
+            "productSlider": {
+                "perBottle": " total",
+                "todaySave": "TODAY ONLY SAVE",
+                "freeShipping": "FREE SHIPPING",
+                "retailValue": "Retail Value:",
+                "specialOffer": "Special Offer:",
+                "willShip": "Your Order will Ship within 24 hours in discreet packaging",
+                "packaging": "",
+                "total": "TOTAL:",
+                "sellout": "Current Sell Out Risk:",
+                "high": "HIGH",
+                "inventoryLevel": "Inventory Level:",
+                "low": "LOW",
+                "orderNowWhile": "ORDER NOW WHILE IN STOCK",
+                "selectButton": "YES, I'LL TAKE IT",
+                "notSelected": "Please select a product.",
+                "limit": "ORDER TODAY",
+                "quantity": "QUANTITY",
+                "quantityLabel": [
+                    "Choose How Many"
+                ],
+                "slides": {
+                    "20hs": {
+                        "title": "20",
+                        "discount": "88% OFF"
+                    },
+                    "15hs": {
+                        "title": "15",
+                        "discount": "86% OFF"
+                    },
+                    "10hs": {
+                        "title": "10",
+                        "discount": "84% OFF"
+                    },
+                    "5hs": {
+                        "title": "5",
+                        "discount": "83% OFF"
+                    },
+                    "4hs": {
+                        "title": "4",
+                        "discount": "82% OFF"
+                    },
+                    "3hs": {
+                        "title": "3",
+                        "bestseller": "true",
+                        "discount": "81% OFF"
+                    },
+                    "2hs": {
+                        "title": "2",
+                        "discount": "79% OFF"
+                    },
+                    "1hs": {
+                        "title": "1",
+                        "discount": "75% OFF"
+                    }
+                }
+            },
+            "contentRow": {
+                "heading": {
+                    "p1" : "CLINICALLY PROVEN NITRIC OXIDE BOOST",
+                    "p2" : "BODY STRENGTH",
+                    "p3" : "PUMPED 400%",
+                    "p4a" : "NO ADDED EXERCISE,",
+                    "p4b" : "NO WORK!",
+                    "p5a" : "EliteGain 350 is",
+                    "p5b" : "guaranteed to: "
+                },
+                "list": [
+                    "Supercharge Lean Muscle Growth",
+                    "Burn Fat On Abs And Chest",
+                    "Cut Recovery Time In Half",
+                    "Boost Endurance",
+                    "Increase Sex Drive And Energy"
+                ]
+            }
+        },
+        "upsell-nox": {
+            "productName": "Neuroxium Bottle",
+            "productNamePlural": "Neuroxium Bottles",
+            "quickUpsell": {
+                "line1": "Wow!",
+                "line2": "You’ve Got A Special Deal!!",
+                "line3": "Today Only!",
+                "line4": "Get One more NEUROXIUM for Only",
+                "line5": "Valued at",
+                "line6": "LIMITED TIME OFFER",
+                "buttonYes": "YES, I’LL TAKE IT",
+                "buttonNo": "I Don’t Want the Deal"
+            },
+            "waitBox": {
+                "row1a": "WAIT,",
+                "row1b": "BEFORE YOU GO",
+                "row2": "Extend Your 75% Savings Today Only!",
+                "row3": [
+                    "NEUROXIUM LIMITED TIME OFFER",
+                    "Save Huge Money Now by Adding to Your Online Lightstrike360 Order"
+                ]
+            },
+            "rightTitle": {
+                "text1": "Discount Applied",
+                "text2": [
+                    "Your Order Today Qualifies",
+                    "for",
+                    "shipping"
+                ]
+            },
+            "button": [
+                "YES, ADD TO MY ORDER"
+            ],
+            "productSlider": {
+                "perBottle": " total",
+                "todaySave": "TODAY ONLY SAVE",
+                "freeShipping": "FREE SHIPPING",
+                "retailValue": "Retail Value:",
+                "specialOffer": "Special Offer:",
+                "willShip": "Your Order will Ship within 24 hours in discreet packaging",
+                "packaging": "",
+                "total": "TOTAL:",
+                "sellout": "Current Sell Out Risk:",
+                "high": "HIGH",
+                "inventoryLevel": "Inventory Level:",
+                "low": "LOW",
+                "orderNowWhile": "ORDER NOW WHILE IN STOCK",
+                "selectButton": "YES, I'LL TAKE IT",
+                "notSelected": "Please select a product.",
+                "limit": "ORDER TODAY",
+                "quantity": "QUANTITY",
+                "quantityLabel": [
+                    "Choose How Many"
+                ],
+                "slides": {
+                    "20hs": {
+                        "title": "20"
+                    },
+                    "15hs": {
+                        "title": "15"
+                    },
+                    "10hs": {
+                        "title": "10"
+                    },
+                    "5hs": {
+                        "title": "5"
+                    },
+                    "4hs": {
+                        "title": "4"
+                    },
+                    "3hs": {
+                        "title": "3",
+                        "bestseller": "true"
+                    },
+                    "2hs": {
+                        "title": "2"
+                    },
+                    "1hs": {
+                        "title": "1"
+                    }
+                }
+            },
+            "contentRow": {
+                "heading": {
+                    "p1a" : "NEUR",
+                    "p1b" : "OXIUM",
+                    "p2" : "Genius in a Bottle",
+                    "p3" : "Revolutionary Clinically-Proven",
+                    "p4" : "SMART PILL"
+                },
+                "list": [
+                    "Think Faster",
+                    "Be Smarter",
+                    "Boost Energy",
+                    "Eliminate Brain Fog Syndrome",
+                    "Focus on Any Task",
+                    "Supercharge Your Success"
+                ]
+            }
+        },
+        "upsell-ls3": {
+            "productName": "3 More Lightstrike360 Flashlights",
+            "confirmationNames": {
+                "id" : "3 More Lightstrike360 Flashlights",
+                "quickUpsellId": "Special Deal",
+                "funnelWrtyId" : "Lifetime Warranty"
+            },
+            "quickUpsell": {
+                "line1": "Wow!",
+                "line2": "You’ve Got A Special Deal!!",
+                "line3": "Today Only!",
+                "line4": "Get One more DISCOUNT BATTERIES for Only",
+                "line5": "Valued at",
+                "line6": "LIMITED TIME OFFER",
+                "buttonYes": "YES, I’LL TAKE IT",
+                "buttonNo": "I Don’t Want the Deal"
+            },
+            "title1": {
+                "row1": {
+                            "text1": "WAIT! ",
+                            "text2": "Save ",
+                            "text3": " With 3 More Lightstrike360 Flashlights"
+                },
+                "row2": "Make Sure your Friends & Family Are Always Safe!"
+            },
+            "contentRow": {
+                "paragraph1": {
+                    "text1": "Lightstrike360: ",
+                    "text2": "The Most Underestimated Tool for Personal Defence"
+                },
+                "paragraph2": {
+                    "text1": "Help identify threats. ",
+                    "text2": "Attackers often use the cover of darkness as an advantage. A bright flashlight can help identify threats in low-light, simply shining a light on a bad guy can be enough to get him take off."
+                },
+                "paragraph3": {
+                    "text1": "Momentarily disorients attackers. ",
+                    "text2": "Have you ever had a bright light shined in your eyes when it was dark outside? You probably felt disoriented and even blinded for a bit. You can take advantage of that natural reaction to bright light to defend yourself against would be attackers."
+                },
+                "paragraph4": {
+                    "text1": "Bonus use: ",
+                    "text2": "Improvised weapon. After you have shined the light in your attacker’s eyes and disoriented him, strike his face with the toothed bezel as hard as you can. The motion should be like stamping him with a giant rubber stamp."
+                }
+            },
+            "title2": {
+                "row1": "3 Lightstrike360 Flashlights",
+                "row2": "3 Additional Lightstrike360 Flashlights",
+                "row3": "Special Savings Price ",
+                "row4": " each"
+            },
+            "freeExtra": {
+                    "text1": "Free Shipping",
+                    "text2": "Free Lifetime Warranty"
+                },
+            "button": [
+                "Yes, Add To My Order"
+            ],
+            "noThanks": [
+                "No thanks. ",
+                "I don’t want to keep my friends and family safe"
+            ]
+        },
+        "upsell-ls1": {
+            "productName": "One More Lightstrike360 Flashlight",
+            "confirmationNames": {
+                "id" : "One More Lightstrike360 Flashlight",
+                "quickUpsellId": "Special Deal",
+                "funnelWrtyId" : "Lifetime Warranty"
+            },
+            "quickUpsell": {
+                "line1": "Wow!",
+                "line2": "You’ve Got A Special Deal!!",
+                "line3": "Today Only!",
+                "line4": "Get One more DISCOUNT BATTERIES for Only",
+                "line5": "Valued at",
+                "line6": "LIMITED TIME OFFER",
+                "buttonYes": "YES, I’LL TAKE IT",
+                "buttonNo": "I Don’t Want the Deal"
+            },
+            "title1": {
+                "row1": {
+                            "text1": "WAIT! ",
+                            "text2": "Save ",
+                            "text3": " On One More Lightstrike360 Flashlight"
+                },
+                "row2": "Every Family Should Have An Extra Flashlight. It is Your Duty"
+            },
+            "contentRow": {
+                "paragraph1": {
+                    "text1": "The Dark Can Be a Scary Place - Protect Your Family",
+                    "text2": ""
+                },
+                "paragraph2": {
+                    "text1": "",
+                    "text2": "Next to a pocket knife, a small, tactical flashlight is one of the most useful and versatile tools a family should have in their every day kit. Count the number of times you’ve been in situations where a flashlight would have been handy, but you were left stumbling in the dark."
+                },
+                "paragraph3": {
+                    "text1": "",
+                    "text2": "As the residents of the East coast have learned firsthand, electrical power can go out at anytime and for long periods. Having a flashlight on you can save time and toe stubs as you navigate about your darkened house or apartment."
+                },
+                "paragraph4": {
+                    "text1": "",
+                    "text2": "In addition to helping you fix wire connections or navigating your home after a power outage, a flashlight can also be used as an effective self-defence tool."
+                }
+            },
+            "title2": {
+                "row1": "One Lightstrike360 Flashlight",
+                "row2": "One Additional Lightstrike360 Flashlight",
+                "row3": "Special Savings Price ",
+                "row4": ""
+            },
+            "freeExtra": {
+                    "text1": "Free Shipping",
+                    "text2": "Free Lifetime Warranty"
+                },
+            "button": [
+                "Yes, Add To My Order"
+            ],
+            "noThanks": [
+                "No thanks. ",
+                "I don’t want to keep my friends and family safe"
+            ]
+        },
+        "upsell-lstl": {
+            "productName": "LightStrike Tactical Laser",
+            "wistiaUrl": "wistia_async_q1t6ukup88",
+            "waitBoxSimple": {
+                "row1": ["WAIT!", "As an LightStrike Club Member You Can Have The"],
+                "row2": "Three Pack LightStrike Tactical Lasers ",
+                "row3": ["for", "75% Off!"]
+            },
+            "steps": {
+                "step1": ["STEP 1:", " CREATE ACCOUNT "],
+                "step2": ["STEP 2:", " MEMBER DEAL "],
+                "step3": ["STEP 3:", " CONFIRMATION "]
+            },
+            "contentRow": {
+                "productDetail": {
+                    "watchVideo": "Watch Video",
+                    "detail": ["Using leading military technology LightStrike Tactical Laser is ","the world's brightest hand held laser with superior precision." ,"Be adventure ready with the world's leading ","handheld tactical laser."]
+                },
+                "text1": "Get several LightStrike Tactical Lasers NOW at this incredible low price.",
+                "text2": "One for backup and give one to a family member or associate.",
+                "text3": "This powerful laser is the greatest gift you can give!"
+            },
+            "button1": [
+                "YES! Please UPGRADE my Flashlight",
+                "order so I can take all three high-end,",
+                "top rated lasers for 75% OFF!"
+            ],
+            "button1Upsell": [
+                "YES! Please UPGRADE my Flashlight order so I can",
+                "take all three high-end, top rated lasers for 75% OFF!"
+            ],
+            "button2": [
+                "NO, but I would like to purchase",
+                "the one LightStrike Laser at the",
+                "discounted price of",
+                "."
+            ],
+            "noThanks": [
+                "No Thank You,",
+                "I don't want to take all three high-end ",
+                "lasers, I am ok with my regular",
+                "Flashlight order."
+            ]
+        }
+    },
+    "contactUs": {
+        "about": {
+            "title": "About:",
+            "content": [
+                {
+                    "lead": "The Lightstrike360 Story",
+                    "text": "Lightstrike360 was designed with military and security forces in mind. A durable, long lasting, and efficient source of light that was needed during tactical situations led to the result of the ultimate supreme tactical flashlight – Lightstrike360."
+                },
+                {
+                    "lead": "The Lightstrike360 Secret",
+                    "text": "Tested and approved by active soldiers with 5 different adjustable laser focus and 5 emergency response modes, all operated by a simple slide makes Lightstrike360 the world’s leading manufacturer of tactical flashlights."
+                },
+                {
+                    "lead": "Our Promise to You",
+                    "text": "We know you’ll love Lightstrike360 because we do too! We take great pride in our product and every purchase comes with a 100% satisfaction guarantee. If you aren’t completely satisfied with your Lightstrike360 purchase, then you can return it for a full refund!"
+                }
+            ]
+        },
+        "contact": {
+            "title": "Contact Us:",
+            "content": [
+                {
+                    "lead": "Need Help?",
+                    "text": "If you are looking for more information on Lightstrike360 or need help with your Lightstrike360 order then our award winning customer service agents are standing by to assist you!"
+                },
+                {
+                    "lead": "Contact Lightstrike360",
+                    "text1": "Contact our Customer Support Team",
+                    "text2": "By Phone:",
+                    "text3": "By Email:",
+                    "text4": "or Online at"
+                }
+            ]
+        }
+    },
+    "affiliateForm" : {
+        "title": "Join Us Now",
+        "submitButton": "Submit",
+        "thankYou": "Thank you!",
+        "linkName" : "Affiliate"
+    }
+}

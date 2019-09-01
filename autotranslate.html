@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+    <style>
+        body {
+            background: #F0F0E0;
+            color: rgba(0,0,0,.9);
+            font-family: Garamond, Baskerville, Caslon;
+            font-size: 20px;
+        }
+        main {
+            text-align: center;
+            margin: 0 auto;
+        }
+        .form-group {
+            margin: 10px;
+            margin-top: 0;
+            padding: 10px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            width: 400px;
+            display: inline-block;
+        }
+        .form-group span {
+            display: block;
+        }
+
+        button {
+            background: #e3e3e3;
+            border: 1px solid #bbb;
+            border-radius: 3px;
+            -webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
+            box-shadow: inset 0 0 1px 1px #f6f6f6;
+            color: #333;
+            font: bold 12px/1 "helvetica neue", helvetica, arial, sans-serif;
+            padding: 8px 0 9px;
+            text-align: center;
+            text-shadow: 0 1px 0 #fff;
+            width: 150px;
+        }
+
+        button:hover {
+            background: #d9d9d9;
+            -webkit-box-shadow: inset 0 0 1px 1px #eaeaea;
+            box-shadow: inset 0 0 1px 1px #eaeaea;
+            color: #222;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1> MegaCopyPaster </h1> 
+        <p> let robots do some work. </p>
+
+        <div class="form-group">
+            <span> language</span>
+            <input type="text" id="language" maxlength="4" placeholder="de" />
+        </div>
+        <br/>
+        <div class="form-group">
+            <span> base.json </span>
+            <input type="file" id="baseJsonInput" />
+        </div>
+        <br/>
+        <div class="form-group">
+            <span> excel translations json </span>
+            <input type="file" id="excelJsonInput" />
+        </div>
+        <br/>
+        <div class="form-group">
+            <button id="start"> Translate </button>
+            <button id="transformToXls"> Json to xmlJson </button>
+        </div>
+        <br/>
+        <div class="form-group">
+            <p id="info"></p>
+            <div id="container"></div>
+            <div id="xlsContainer"></div>
+        </div>
+    </main>
+
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="autotranslate.js"></script>
+    <script src="jsonToExcelFormat.js"></script>
+
+</body>
+</html>

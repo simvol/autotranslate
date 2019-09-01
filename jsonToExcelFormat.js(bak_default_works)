@@ -1,0 +1,63 @@
+// Script takes json and makes xls like json (which than can be transformed into xls format)
+
+$("#transformToXls").click(function(){
+    var baseJson = $("#baseJsonInput")[0].files[0];
+    var files = [];
+    function getContent(file) {
+        var name = file.name;
+        var reader = new FileReader();  
+        reader.onload = function(e) {  
+            // get file content
+            var result = e.target.result;
+            files.push(result);
+        }
+        reader.readAsText(file, "UTF-8");
+    }
+
+    getContent(baseJson);
+    var timer = setInterval(doStaffIfReady, 1000);
+    function doStaffIfReady(){
+        if(files.length === 1){
+            clearInterval(timer);
+            transformToXlsJson(JSON.parse(files[0]));
+        }
+    };
+});
+
+function transformToXlsJson(baseJson){
+
+    var arr = [];
+    //go throw json and make objects with EN: value, can have extra level to name worksheet
+    /*
+        {
+            "Landing Page": [ //worksheet tab
+                {
+                    "EN": "Hello this is landing page"
+                }
+            ]
+        }
+    */
+
+    //go through each element of the baseJson
+    function scan(obj, parent) {
+        var k;
+        if (obj instanceof Object) {
+            for (k in obj) {
+                if (obj.hasOwnProperty(k)) {
+                    //recursive call to scan property
+                    scan(obj[k], parent + "['" + k + "']");
+                }
+            }
+        } else {
+            arr.push({
+                "EN": obj
+            });
+        };
+
+    };
+    scan(baseJson, "");
+
+    var data = "text/json;charset=utf-8," + encodeURIComponent(JSON.stringify({'default': arr}));
+    $('<a href="data:' + data + '" download="data.json">download xls JSON</a>').appendTo('#xlsContainer');
+
+};
